@@ -1,0 +1,48 @@
+h1{
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    margin-left: 80px;
+    position: absolute;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+p1{
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    margin-left: 80px;
+    position: absolute;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav ul li{
+    list-style: none;
+    text-decoration: none;
+    margin-top: 3%;
+    margin-left: 10px;
+}
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}
+p6{
+    color: rgb(255, 255, 255);
+    margin-bottom: 100%;
+    font-size: medium;
+    margin-left: 1240px;
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+}
